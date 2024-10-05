@@ -7,10 +7,8 @@ import TheSidebar from './components/layout/TheSidebar.vue';
 
 <template>
   <main>
-    <nav class="outer-col-1">
-      <TheNav />
-    </nav>
-    <div class="outer-col-2">
+    <TheNav />
+    <div class="wrapper">
       <TheHeader />
       <div class="inner-row">
         <div class="inner-col">
@@ -21,8 +19,4 @@ import TheSidebar from './components/layout/TheSidebar.vue';
       <TheFooter />
     </div>
   </main>
-
 </template>
-
-
-

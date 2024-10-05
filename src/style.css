@@ -19,6 +19,7 @@
   --half: .5rem;
   --third: .333rem;
   --two-one: .21rem;
+  --lp: 3.33rem;
 }
 
 * {
@@ -43,17 +44,16 @@ body {
   text-align: center;
 }
 
-/* Layout */
-.outer-col-1 {
+.menu {
   flex: 1;
-  padding: 1rem; 
+  padding: var(--third); 
 }
 
-.outer-col-2 {
+.wrapper {
   display: flex;
   flex-direction: column;
   flex: 5;
-  padding: 1rem;
+  padding: var(--half);
 }
 
 .inner-row {
@@ -79,14 +79,13 @@ body {
 header,
 footer {
   /* height: 20vh; */
-  /* background-color: blueviolet; */
   padding: 1rem;
 }
 
 /* Media Q's */
 @media (max-width: 768px) {
   /* Make the outer columns stack vertically on smaller screens */
-  .outer-col-2 {
+  .wrapper {
     flex-direction: column;
   }
 
@@ -101,8 +100,8 @@ footer {
 }
 
 @media (max-width: 480px) {
-  .outer-col-1,
-  .outer-col-2 {
+  .menu,
+  .wrapper {
     flex: 1; 
     padding: 0.5rem;
   }
@@ -119,13 +118,13 @@ footer,
 article,
 nav,
 aside {
-  padding: .3em;
+  padding: var(--third);
 }
 
 /* Styles */
 
 h1 {
-  font-size: 3.33rem;
+  font-size: var(--lp);
   font-weight: 900;
   line-height: 1;
   margin: 0;
@@ -144,13 +143,13 @@ h3 {
 }
 
 h4 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 800;
   line-height: 1;
 }
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 1.33rem;
   font-weight: 500;
   line-height: .8;
 }
@@ -163,6 +162,7 @@ h6 {
 
 /* Classes */
 
-
-
-
+.smaller {
+  font-size: .8rem;
+  line-height: .8;
+}

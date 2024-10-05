@@ -10,7 +10,7 @@
 
 <script setup>
 import { ref } from 'vue';
-const title = ref("φphi");
+const title = ref("φhi");
 const intro = ref("Aliquam lobortis vitae nibh nec rhoncus. Morbi mattis neque eget efficitur feugiat.");
 
 </script>

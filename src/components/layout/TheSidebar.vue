@@ -1,10 +1,9 @@
 <template>
-  <aside>
-    <section id="preview">
-      <h3>Preview</h3>
-      <p>
-        Sed ultricies dolor non ante vulputate hendrerit. Vivamus sit amet suscipit sapien. Nulla
-        iaculis eros a elit pharetra egestas.
+  <aside id="preview">
+  
+      <h4>Phi Updates</h4>
+      <p class="smaller">
+        Stay up to date with the latest Phi news and updates.
       </p>
       <form>
         <input type="text" name="firstname" placeholder="First name" aria-label="First name" required />
@@ -15,11 +14,10 @@
           <label for="terms">
             <input type="checkbox" role="switch" id="terms" name="terms" />
             I agree to the
-            <a href="#" onclick="event.preventDefault()">Privacy Policy</a>
+            <a href="#" onclick="event.preventDefault()">Receive Emails</a>
           </label>
         </fieldset>
       </form>
-    </section>
-    <!-- ./ Preview -->
+
   </aside>
 </template>

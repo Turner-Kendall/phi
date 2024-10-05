@@ -1,7 +1,7 @@
 <template>
- <MainArticle />
+ <HeroSection />
 </template>
 
 <script setup>
-import MainArticle from '../components/spa/MainArticle.vue';
+import HeroSection from '../components/spa/HeroSection.vue';
 </script>

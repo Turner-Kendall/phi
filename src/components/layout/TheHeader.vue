@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img src="/avatar.png" height="128" width="128">
+    <img src="/images/avatar.png" height="128" width="128">
     <h1>{{ title }}</h1>
     <section class="intro"> {{ intro }}
 
@@ -11,7 +11,7 @@
 <script setup>
 import { ref } from 'vue';
 const title = ref("φhi");
-const intro = ref("Aliquam lobortis vitae nibh nec rhoncus. Morbi mattis neque eget efficitur feugiat.");
+const intro = ref("A minimal Vue3 theme or template based on the golden ration...");
 
 </script>
 

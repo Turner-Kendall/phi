@@ -1,19 +1,31 @@
 <template>
-  <article>
+  <article id="hero">
+    <h2>Why φhi?</h2>
+    <p>
+      I had am idea to create a minimal Vue3 theme or template based
+      on The Golden Ratio, the Fibonacci sequence, and other
+      "sacred geometry". &nbsp;Full disclosure I was inspired by Disney's
+      <a href="https://www.youtube.com/watch?v=hl6JDv4ZG7U">
+        Donald in Mathmagic Land... </a>
+    </p>
+    <footer>
+The minimal bit is achieved largely with
+        <a href="https://picocss.com/">pico.css</a>
 
-    <!-- Article-->
-    <article id="article">
-      <h2>Article</h2>
-      <p>
-        Nullam dui arcu, malesuada et sodales eu, efficitur vitae dolor. Sed ultricies dolor non
-        ante vulputate hendrerit. Vivamus sit amet suscipit sapien. Nulla iaculis eros a elit
-        pharetra egestas. Nunc placerat facilisis cursus. Sed vestibulum metus eget dolor pharetra
-        rutrum.
-      </p>
-      <footer>
-        <small>Duis nec elit placerat, suscipit nibh quis, finibus neque.</small>
-      </footer>
-    </article>
-    <!-- ./ Article-->
+    </footer>
   </article>
 </template>
+
+<style>
+  #hero{
+    padding: 1.33rem;
+  }
+  #hero h2{
+    padding-top: .33rem;
+  }
+  #hero footer{
+    font-size: .9rem;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+</style>

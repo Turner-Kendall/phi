@@ -127,7 +127,7 @@ h1 {
   font-size: var(--lp);
   font-weight: 900;
   line-height: 1;
-  margin: 0;
+  margin: var(--third);
 }
 
 h2 {

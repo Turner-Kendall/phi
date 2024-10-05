@@ -1,3 +1,7 @@
+/* Phi
+  tk@turnerkendall.com
+  https://turnerkendall.com */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,8 +15,9 @@
   --pi: 3.14159rem;
   --min: 320px; 
   --max: 1280px;
-  --mid: 13;
+  --mid: 13px;
   --half: .5rem;
+  --third: .333rem;
   --two-one: .21rem;
 }
 

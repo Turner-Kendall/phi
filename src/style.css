@@ -1,0 +1,163 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --golden: 1.6180339887rem;
+  --volume: 1.33rem;
+  --pi: 3.14159rem;
+  --min: 320px; 
+  --max: 1280px;
+  --mid: 13;
+  --half: .5rem;
+  --two-one: .21rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  min-width: var(--min);
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+  /* If everything is too large for you, edit this first */
+  font-size: var(--golden);
+}
+
+#app {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: var(--two-one);
+  text-align: center;
+}
+
+/* Layout */
+.outer-col-1 {
+  flex: 1;
+  padding: 1rem; 
+}
+
+.outer-col-2 {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  padding: 1rem;
+}
+
+.inner-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.inner-col {
+  flex: 4;
+}
+
+.inner-row article {
+  min-height: 60vh;
+  padding: 1rem; 
+}
+
+.inner-row aside {
+  flex: 1;
+  padding: 1rem; 
+}
+
+header,
+footer {
+  /* height: 20vh; */
+  /* background-color: blueviolet; */
+  padding: 1rem;
+}
+
+/* Media Q's */
+@media (max-width: 768px) {
+  /* Make the outer columns stack vertically on smaller screens */
+  .outer-col-2 {
+    flex-direction: column;
+  }
+
+  .inner-row {
+    flex-direction: column; 
+  }
+
+  header,
+  footer {
+    height: auto; 
+  }
+}
+
+@media (max-width: 480px) {
+  .outer-col-1,
+  .outer-col-2 {
+    flex: 1; 
+    padding: 0.5rem;
+  }
+
+  .inner-row article,
+  .inner-row aside {
+    padding: 0.5rem;
+  }
+}
+
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: .3em;
+}
+
+/* Styles */
+
+h1 {
+  font-size: 3.33rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: .8;
+}
+
+h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: .8;
+}
+
+/* Classes */
+
+
+
+

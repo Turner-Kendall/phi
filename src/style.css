@@ -13,13 +13,13 @@
   --golden: 1.6180339887rem;
   --volume: 1.33rem;
   --pi: 3.14159rem;
-  --min: 320px; 
+  --min: 320px;
   --max: 1280px;
   --mid: 13px;
   --mid-minus: -13px;
-  --half: .5rem;
-  --third: .333rem;
-  --two-one: .21rem;
+  --half: 0.5rem;
+  --third: 0.333rem;
+  --two-one: 0.21rem;
   --lp: 3.33rem;
 }
 
@@ -36,8 +36,13 @@ body {
   margin: 0;
   /* If everything is too large for you, edit this first */
   font-size: var(--golden);
-  background: rgb(16,25,31);
-background: linear-gradient(90deg, rgba(16,25,31,1) 0%, rgba(20,30,38,1) 35%, rgba(16,25,31,1) 100%);
+  background: rgb(16, 25, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(16, 25, 31, 1) 0%,
+    rgba(20, 30, 38, 1) 35%,
+    rgba(16, 25, 31, 1) 100%
+  );
 }
 
 #app {
@@ -45,16 +50,14 @@ background: linear-gradient(90deg, rgba(16,25,31,1) 0%, rgba(20,30,38,1) 35%, rg
   margin: 0 auto;
   padding: var(--two-one);
   text-align: center;
-
-    background-image: url('/background.svg');
-    background-size: cover;
-    background-position: center;
-  
+  background-image: url("/background.svg");
+  background-size: cover;
+  background-position: center;
 }
 
 .menu {
   flex: 1;
-  padding: var(--third); 
+  padding: var(--third);
 }
 
 .wrapper {
@@ -76,12 +79,12 @@ background: linear-gradient(90deg, rgba(16,25,31,1) 0%, rgba(20,30,38,1) 35%, rg
 
 .inner-row article {
   min-height: 50vh;
-  padding: 1rem; 
+  padding: 1rem;
 }
 
 .inner-row aside {
   flex: 1;
-  padding: 1rem; 
+  padding: 1rem;
 }
 
 header,
@@ -102,19 +105,19 @@ article {
   }
 
   .inner-row {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   header,
   footer {
-    height: auto; 
+    height: auto;
   }
 }
 
 @media (max-width: 480px) {
   .menu,
   .wrapper {
-    flex: 1; 
+    flex: 1;
     padding: 0.5rem;
   }
 
@@ -123,7 +126,6 @@ article {
     padding: 0.5rem;
   }
 }
-
 
 header,
 footer,
@@ -149,8 +151,8 @@ h2 {
   margin: var(--two-one);
 }
 
-header h2{
-  margin-top:var(--mid-minus);
+header h2 {
+  margin-top: var(--mid-minus);
 }
 
 h3 {
@@ -168,13 +170,13 @@ h4 {
 h5 {
   font-size: 1.33rem;
   font-weight: 500;
-  line-height: .8;
+  line-height: 0.8;
 }
 
 h6 {
   font-size: 1.3rem;
   font-weight: 500;
-  line-height: .8;
+  line-height: 0.8;
 }
 
 img {
@@ -184,6 +186,6 @@ img {
 /* Classes */
 
 .smaller {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1;
 }

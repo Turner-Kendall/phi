@@ -18,10 +18,13 @@
     </div>
     </section>
 
+    <TheSplider />
+
   </article>
 </template>
 
 <script setup>
+import TheSplider from './TheSplider.vue';
 let images = [
   {
     id: 8,

@@ -26,6 +26,30 @@
       hendrerit ligula semper id. Nunc risus felis, egestas eu tristique eget, convallis in
       velit.
     </p>
+    <h2>Typography</h2>
+        <p>
+          Aliquam lobortis vitae nibh nec rhoncus. Morbi mattis neque eget efficitur feugiat.
+          Vivamus porta nunc a erat mattis, mattis feugiat turpis pretium. Quisque sed tristique
+          felis.
+        </p>
+
+        <!-- Blockquote-->
+        <blockquote>
+          "Maecenas vehicula metus tellus, vitae congue turpis hendrerit non. Nam at dui sit amet
+          ipsum cursus ornare."
+          <footer>
+            <cite>- Phasellus eget lacinia</cite>
+          </footer>
+        </blockquote>
+
+        <!-- Lists-->
+        <h3>Lists</h3>
+        <ul>
+          <li>Aliquam lobortis lacus eu libero ornare facilisis.</li>
+          <li>Nam et magna at libero scelerisque egestas.</li>
+          <li>Suspendisse id nisl ut leo finibus vehicula quis eu ex.</li>
+          <li>Proin ultricies turpis et volutpat vehicula.</li>
+        </ul>
   </article>
 </template>
 

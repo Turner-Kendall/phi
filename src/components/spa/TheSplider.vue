@@ -18,11 +18,21 @@ import { Splide, SplideSlide } from '@splidejs/vue-splide';
     data() {
       return {
         options: {
-          rewind : true,
-          width  : 800,
+          // rewind : false,
+          // updateOnMove: false,
+          // width  : 800,
+          autoWidth: true,
+          autoHeight: true,
           gap    : '1rem',
         },
       };
     },
   }
 </script>
+
+<style>
+.splide-crossfade .splide__slide:first-of-type,
+.splide-crossfade .is-prev {
+  opacity: 1 !important;
+}
+</style>

@@ -2,7 +2,7 @@
   <section id="gallery">
     <div class="gallery-item" v-for="i in images" :key="i.id">
       <a :href="i.url">
-        <img :src="`/images/${i.id}.webp`" :alt="i.name" />
+        <img :src="`/images/${i.id}.webp`" :alt="i.name"  class="gal-img"/>
       </a>
     </div>
   </section>
@@ -86,10 +86,19 @@ let images = [
   text-align: center;
 }
 
-#gallery img {
-  max-width: 100%;
+.gal-img {
+  max-width: 96%;
+  margin:2%;
   height: auto;
   border-radius: 0.5rem;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.gal-img:hover{
+  margin: 0;
+  max-width: 100%;
+  border: 0;
 }
 
 </style>

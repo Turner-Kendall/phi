@@ -1,9 +1,11 @@
 <template>
   <header class="main-header">
     <img src="/images/phi.png" id="logo">
-    <h1>{{ title }}</h1>
-    <section class="intro"> {{ intro }}
-
+    
+    
+    <section class="intro"> 
+      <h1>{{ title }}</h1>
+      <span class="sub-heading">{{ intro }}</span>
     </section>
   </header>
 </template>
@@ -32,6 +34,9 @@ const intro = ref("A minimal Vue3 skin based on the golden ration...");
   text-align: left;
 }
 
+.sub-heading{
+  padding-left: .8rem;
+}
 
 
 @media (min-width: 1024px) {

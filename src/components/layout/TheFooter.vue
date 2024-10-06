@@ -1,10 +1,68 @@
 <template>
   <footer>
-    <!-- Footer -->
-    <footer>
-      <small>Built with <a href="https://picocss.com">Pico</a> •
-        <a href="https://github.com/picocss/examples/blob/master/v2-html-classless/index.html">Source
-          code</a></small>
-    </footer>
+    <section class="footer-links">
+      <div v-for="section in footerSections" :key="section.title" class="footer-column">
+        <h5>{{ section.title }}</h5>
+        <ul class="list-unstyled">
+          <li v-for="link in section.links" :key="link.id">
+            <a :href="link.link">{{ link.title }}</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="credits">
+      <p>&copy; Some Rights Reserved 
+        <a href="https://turnerkendall.com">Turner Kendall</a> 2024. &nbsp; Made with  
+        <a href="https://vuejs.org/">VueJs</a>, and <a href="https://picocss.com/">Pico.css</a>. &nbsp Images from <a href="https://unspash.com">Unsplash</a>
+      </p>
+      <p> φhi.skin made possible by <a href="#">Sponsors Name</a>
+      </p>
+    </section>
+ 
   </footer>
 </template>
+
+<script setup>
+import { footerSections } from '../../lib/footerData'
+</script>
+
+<style>
+.footer-links {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #18232c;
+}
+
+.footer-column {
+  text-align: left;
+  padding: 13px;
+  margin: 20px;
+}
+
+.footer-column h5 {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: .8rem;
+  font-weight: 800;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 5px;
+}
+
+.footer-column ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: .8rem;
+}
+.credits p{
+  font-size: .88rem;
+  line-height: .8rem;
+}
+</style>

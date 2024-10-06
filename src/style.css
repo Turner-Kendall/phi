@@ -36,6 +36,8 @@ body {
   margin: 0;
   /* If everything is too large for you, edit this first */
   font-size: var(--golden);
+  background: rgb(16,25,31);
+background: linear-gradient(90deg, rgba(16,25,31,1) 0%, rgba(20,30,38,1) 35%, rgba(16,25,31,1) 100%);
 }
 
 #app {
@@ -43,6 +45,11 @@ body {
   margin: 0 auto;
   padding: var(--two-one);
   text-align: center;
+
+    background-image: url('/background.svg');
+    background-size: cover;
+    background-position: center;
+  
 }
 
 .menu {

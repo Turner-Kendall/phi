@@ -11,7 +11,7 @@
     <section id="gallery">
       <div class="gallery-item" v-for="i in images" :key="i.id">
       <a :href="i.url">
-        <img :src="`/images/${i.id}.webp`" 
+        <img :src="`/images/thumb-${i.id}.webp`" 
           :alt="i.name" 
           class="gal-img" />
       </a>
@@ -27,22 +27,22 @@
 import TheSplider from './TheSplider.vue';
 let images = [
   {
-    id: 8,
+    id: 1,
     name: "Pawel Czerwinski",
     url: "https://unsplash.com/photos/background-pattern-uXy0UbFwoXE",
   },
   {
-    id: 10,
+    id: 5,
     name: "BoliviaInteligente",
     url: "https://unsplash.com/photos/a-group-of-planets-in-the-dark-sky-_75VdeLT3BI",
   },
   {
-    id: 11,
+    id: 3,
     name: "Suleman Serwar",
     url: "https://unsplash.com/photos/a-white-vase-filled-with-purple-flowers-on-top-of-a-table-SB3Mc8cfnSI",
   },
   {
-    id: 12,
+    id: 4,
     name: "Suleman Serwar",
     url: "https://unsplash.com/photos/a-pair-of-headphones-sitting-on-top-of-a-table-2-3WHq7X8wg",
   },

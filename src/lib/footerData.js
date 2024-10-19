@@ -4,7 +4,7 @@ export const footerSections = [
     links: [
       { title: "Meme War", link: "https://memewar.app", id: "1" },
       { title: "The Dic", link: "https://thedic.site", id: "2" },
-      { title: "TurnerKendall", link: "https://turnerkendall.com", id: "3" },
+      { title: "φhi.skin", link: "https://phi.skin", id: "3" },
       {
         title: "Get φhi",
         link: "https://github.com/Turner-Kendall/phi",

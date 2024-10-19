@@ -1,6 +1,6 @@
 <template>
   <header class="main-header">
-    <img src="/images/phi.png" id="logo">
+    <img src="/images/avatar.png" id="logo">
     
     
     <section class="intro"> 
@@ -12,8 +12,8 @@
 
 <script setup>
 import { ref } from 'vue';
-const title = ref("φhi.skin");
-const intro = ref("A minimal Vue3 skin based on the golden ration...");
+const title = ref("Turner Kendall");
+const intro = ref("A Slight Return; digital development");
 
 </script>
 
@@ -35,7 +35,7 @@ const intro = ref("A minimal Vue3 skin based on the golden ration...");
 }
 
 .sub-heading{
-  padding-left: .8rem;
+  padding-left: .25rem;
 }
 
 

@@ -16,8 +16,6 @@
         <a href="https://turnerkendall.com">Turner Kendall</a> 2024. &nbsp; Made with  
         <a href="https://vuejs.org/">VueJs</a>, and <a href="https://picocss.com/">Pico.css</a>. &nbsp Images from <a href="https://unspash.com">Unsplash</a>
       </p>
-      <p> φhi.skin made possible by <a href="#">Sponsors Name</a>
-      </p>
     </section>
  
   </footer>

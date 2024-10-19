@@ -1,11 +1,18 @@
 <template>
-  <section id="gallery">
-    <div class="gallery-item" v-for="i in images" :key="i.id">
+  <article >
+    <header>
+      <h3>Responsive Gallery</h3>
+      <h6>Images assigned a size, but flex 😼</h6>
+    </header>
+    <section id="gallery">
+      <div class="gallery-item" v-for="i in images" :key="i.id">
       <a :href="i.url">
         <img :src="`/images/${i.id}.webp`" :alt="i.name"  class="gal-img"/>
       </a>
     </div>
-  </section>
+    </section>
+
+  </article>
 </template>
 
 <script setup>
@@ -100,5 +107,7 @@ let images = [
   max-width: 100%;
   border: 0;
 }
-
+h3, h6{
+  margin: 0;
+}
 </style>

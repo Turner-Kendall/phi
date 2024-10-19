@@ -2,39 +2,25 @@
   <section id="faq">
     <h4>Frequent Questions</h4>
     <details>
-      <summary>why φhi!</summary>
+      <summary>Are You Available?</summary>
       <p>
-        I had an idea to create a minimal Vue3 theme or template based
-        on The Golden Ratio, the Fibonacci sequence, and other
-        "sacred geometry".
+        Yes, I am available for hire. 
+        I am a full stack developer with a focus on Vue 3, Node, and MongoDB. 
+        I am also available for consulting and training. 
+        Please <a href="/page/contact">contact me here for more details</a>.
       </p>
-      <p>
-        Full disclosure I was inspired by Disney's
-        <a href="https://www.youtube.com/watch?v=hl6JDv4ZG7U">
-          Donald in Mathmagic Land</a>...
-      </p>
+     
     </details>
     <details open>
-      <summary>φhi features</summary>
-      <ul>
-        <li>Fast to spin up, fast to load.</li>
-        <li>Minimal / Simple.</li>
-        <li>Simple CSS based on Pico.css</li>
-        <li>Vue Router Pages, SPA Components, Custom Templates</li>
-      </ul>
+      <summary>Where's Headlin3s?</summary>
+      <p>
+        After half a decade I had to shut it down. It was a great run and I learned a lot but ulitmately it was not financially sustainable. 
+        <a href="https://github.com/Turner-Kendall/headlin3s">You can see the code from the final version here</a>
+      </p>
     </details>
+
     <details>
-      <summary>what's included?</summary>
-      <ul class="included-list">
-        <li>Pico.css</li>
-        <li>vue use core</li>
-        <li>vue3-burger-menu</li>
-        <li>Sweet Alert 2</li>
-        <li>Custom Image Gallery</li>
-      </ul>
-    </details>
-    <details>
-      <summary>who are you?</summary>
+      <summary>Who are you?</summary>
       <p>
         You might know me as <a href="https://turnerkendall.com">
           Turner Kendall
@@ -46,14 +32,30 @@
     </details>
 
     <details>
-      <summary>Customize φhi</summary>
+      <summary>A Song?</summary>
+        <p>Like to hear it? <a href="https://tripkendall.com/audio/boomabilly.mp3">Here it goes...</a></p>
+    </details>
+
+    <details>
+      <summary>What is φhi</summary>
       <p>
-        You can find this component in:
-        <span class="smaller">src/components/shared/FrequentQuestions.vue</span>
-      </p>
+        It's an opinionated VueJs starter site using Pico and a (very) few npms
+        and what this site is based on. <a href="https://phi.skin/">Check it out here</a>.
+    </p>
+    </details>
+
+    <details>
+      <summary>Still Do WP?</summary>
       <p>
-        Most of the action takes place in the components directory. You also want to check out /src//views
-      </p>
+        Not if I can help it... 
+    </p>
+    <p>But I'll still occasionally create a 
+      WordPress theme for hire.  Vue is my platform of choice these days.</p>
+    </details>
+
+    <details>
+      <summary>Social Media?</summary>
+      <p>Yes, exclusively on Twitter - er, <a href="https://x.com/turnerkendall3">Xclusively on ...X.</a>  </p>
     </details>
 
   </section>

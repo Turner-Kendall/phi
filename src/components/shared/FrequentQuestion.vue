@@ -37,8 +37,8 @@
       <summary>who are you?</summary>
       <p>
         You might know me as <a href="https://turnerkendall.com">
-          Turner Kendall
-        </a>, <a href="https://tripkendall.com" target="_blank" rel="noopener">
+          Turner Kendall </a>, 
+        <a href="https://tripkendall.com" target="_blank" rel="noopener">
           Trip Kendall</a>, James, or even
         <a href="http://web.archive.org/web/20120212150556/http://imjtk.com/">JTk</a> - hey I've been around a while.
         Right now I am writing Rust and it is an entirely new experience.
@@ -55,9 +55,7 @@
         Most of the action takes place in the components directory. You also want to check out /src//views
       </p>
     </details>
-
   </section>
-
 </template>
 
 <style>

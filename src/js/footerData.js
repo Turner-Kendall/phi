@@ -2,19 +2,19 @@ export const footerSections = [
   {
     title: "Internal Pages:",
     links: [
-      { title: "Network Home", link: "/", id: "1" },
-      { title: "About the Network", link: "/page/about", id: "2" },
-      { title: "User Signup", link: "/page/login", id: "3" },
-      { title: "Contact Us", link: "/page/contact", id: "4" }
+      { title: "φhi Home", link: "/", id: "1" },
+      { title: "About  φhi", link: "/page/about", id: "2" },
+      { title: "Contact", link: "/page/contact", id: "3" },
+      { title: "Get φhi", link: "https://github.com/Turner-Kendall/phi", id: "4" }
     ],
   },
   {
     title: "Popular Articles:",
     links: [
-      { title: "Trump / Musk Bromance", link: "/pol/trump-elon", id: "5" },
-      { title: "Tuning Out Hollywood", link: "/pol/hollywood-rejected", id: "5" },
-      { title: "2025 Kitchen Trends", link: "/home/kitchen-tends", id: "7" },
-      { title: "Alcohol Cancer", link: "/home/alcohol-cancer", id: "8" },
+      { title: "Trump / Musk Bromance", link: "https://weblog.network/pol/trump-elon", id: "5" },
+      { title: "Tuning Out Hollywood", link: "https://weblog.network/pol/hollywood-rejected", id: "5" },
+      { title: "2025 Kitchen Trends", link: "https://weblog.network/home/kitchen-tends", id: "7" },
+      { title: "Alcohol Cancer", link: "https://weblog.network/home/alcohol-cancer", id: "8" },
     ],
   },
   {
@@ -27,12 +27,12 @@ export const footerSections = [
     ],
   },
   {
-    title: "Categories:",
+    title: "Even More:",
     links: [
-      { title: "Entertainment", link: "/ent/list", id: "13" },
-      { title: "Technology", link: "/tech/list", id: "14" },
-      { title: "Politics", link: "/pol/list", id: "15" },
-      { title: "Homemaking", link: "/home/list", id: "16" },
+      { title: "TurboSloth", link: "/article/turbo-sloth", id: "13" },
+      { title: "MoonToast", link: "/article/moon-toast", id: "14" },
+      { title: "Kayso", link: "https://kayso.net", id: "15" },
+      { title: "MemeWar", link: "https://memewar.app", id: "16" },
     ],
   },
 ];

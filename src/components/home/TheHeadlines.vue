@@ -55,6 +55,11 @@ import { headlineData } from '../../js/headlineData'
 </script>
 
 <style scoped>
+
+article {
+  min-height: 300px;
+}
+
 .article {
   display: grid;
   grid-template-columns: 1fr 3fr;

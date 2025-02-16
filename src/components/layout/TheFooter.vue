@@ -1,52 +1,57 @@
 <template>
-  <footer>
-    <section class="footer-links">
-      <div v-for="section in footerSections" :key="section.title" class="footer-column">
-        <h5>{{ section.title }}</h5>
-        <ul class="list-unstyled">
-          <li v-for="link in section.links" :key="link.id">
-            <a :href="link.link">{{ link.title }}</a>
-          </li>
-        </ul>
-      </div>
-    </section>
 
-    <section class="credits">
-      <p>&copy; Some Rights Reserved 
-        <a href="https://turnerkendall.com">Turner Kendall</a> 2024. &nbsp; Made with  
-        <a href="https://vuejs.org/">VueJs</a>, and <a href="https://picocss.com/">Pico.css</a>. &nbsp Images from <a href="https://unspash.com">Unsplash</a>
-      </p>
-      <p> φhi.skin made possible by <a href="#">Sponsors Name</a>
-      </p>
-    </section>
- 
-  </footer>
+  <article>
+    <a href="#top" class="top-link">
+      <IconUp />
+      Back to the Top
+    </a>
+    <footer id="footer">
+      <section class="footer-links">
+        <div v-for="section in footerSections" :key="section.title" class="footer-column">
+          <h5>{{ section.title }}</h5>
+          <ul class="list-unstyled">
+            <li v-for="link in section.links" :key="link.id">
+              <a :href="link.link">{{ link.title }}</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="credits">
+        <p>&copy; Some Rights Reserved
+          <a href="https://turnerkendall.com">Turner Kendall</a> 2025
+        </p>
+      </section>
+
+    </footer>
+  </article>
 </template>
 
 <script setup>
-import { footerSections } from '../../lib/footerData'
+import { footerSections } from '../../js/footerData'
+import IconUp from '../icons/IconUp.vue';
 </script>
 
-<style>
-.footer-links {
-  border-radius: 0.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: #18232c;
+<style scoped>
+#footer {
+  padding: 25px 0;
+}
+
+h5 {
+  margin: 0 0 5px 0 !important;
+  padding: 0;
+  font-size: .9rem !important;
+  font-weight: 600;
+}
+
+.credits {
+  padding: 20px 0 0 0;
+  text-align: center;
 }
 
 .footer-column {
   text-align: left;
-  padding: 13px;
-  margin: 20px;
-}
-
-.footer-column h5 {
-  margin: 0 0 15px 0;
-  padding: 0;
-  font-size: .8rem;
-  font-weight: 800;
+  padding: 10px;
 }
 
 .footer-column ul {
@@ -61,8 +66,43 @@ import { footerSections } from '../../lib/footerData'
   padding: 0;
   font-size: .8rem;
 }
-.credits p{
-  font-size: .88rem;
-  line-height: .8rem;
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-links div:last-child {
+  margin-right: 2rem;
+}
+
+.footer-links div:first-child {
+  margin-left: 1rem;
+}
+
+@media (max-width: 640px) {
+  .footer-links div:last-child {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .footer-links div:first-child {
+    margin-left: 0;
+  }
+
+  .footer-column {
+    text-align: left;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 468px) {
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
 }
 </style>

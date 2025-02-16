@@ -1,18 +1,27 @@
-import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/HomePage.vue";
-import PageView from "../views/PageView.vue";
-// import { store } from "../store";
+import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: "/", name: "Home", component: Home, },
-    { path: "/page/:name", name: "PageView", component: PageView, },
-    { path: "/:pathMatch(.*)*",
-      name: "NotFound",
-      component: () => import("../views/NotFound.vue"),
-    }
+    {
+      path: '/',
+      name: 'home',
+      component: () => import('../views/HomeView.vue')
+    },
+    {
+      path: '/article/:name',
+      name: 'ArticleView',
+      component: () => import('../views/ArticleView.vue')
+    },
+    {
+      path: '/page/:name',
+      name: 'PageView',
+      component: () => import('@/views/PageView.vue')
+    },
   ],
-});
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 };
+  },
+})
 
-export default router;
+export default router

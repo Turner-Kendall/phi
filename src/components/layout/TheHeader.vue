@@ -1,52 +1,32 @@
 <template>
-  <header class="main-header">
-    <img src="/images/phi.png" id="logo">
-    
-    
-    <section class="intro"> 
-      <h1>{{ title }}</h1>
-      <span class="sub-heading">{{ intro }}</span>
+  <header class="main-header" id="top">
+    <TheNav />
+    <section class="masthead">
+      <h1><a href="/">φhi</a></h1>
+      <h4>A minimal Vue3 starter template</h4>
     </section>
   </header>
 </template>
 
 <script setup>
-import { ref } from 'vue';
-const title = ref("φhi.skin");
-const intro = ref("A minimal Vue3 skin based on the golden ration...");
-
+import TheNav from './TheNav.vue'
 </script>
 
 <style lang="css" scoped>
-.intro {
-  margin: 0 var(--half);
-  /* margin: 0 var(--two-one); */
-  font-size: 1rem;
+/* Don't move to main css file */
+a {
+  font-size: 2rem;
+  font-weight: 900 !important;
+  letter-spacing: -1px;
 }
 
-#logo {
-  height: 3rem;
-  margin: 1.3rem 0 0 .3rem;
+a:hover {
+  font-weight: 900 !important;
+  color: #d24e69 !important;
+  text-decoration: none;
 }
 
-.main-header {
-  padding: 1rem 0 0 1rem;
-  text-align: left;
-}
-
-.sub-heading{
-  padding-left: .8rem;
-}
-
-
-@media (min-width: 1024px) {
-  .main-header {
-    padding: 0;
-    text-align: left;
-  }
-  #logo {
-    height: 5rem;
-    margin: 0;
-  }
+h1{
+  margin-top: -10px;
 }
 </style>

@@ -1,22 +1,23 @@
 <template>
-  <section class="wrapper">
+  <article class="page-wrapper">
     <div v-if="pageRoute == 'about'">
-      <AboutPage />
-    </div>
-    <div v-if="pageRoute == 'gallery'">
-      <GalleryPage />
+      <About />
     </div>
     <div v-if="pageRoute == 'contact'">
-      <ContactPage />
+      <Contact />
     </div>
-  </section>
+  </article>
 </template>
 
 <script setup>
-import { useRoute } from "vue-router";
-import AboutPage from '../components/pages/AboutPage.vue';
-import ContactPage from "../components/pages/ContactPage.vue";
-import GalleryPage from "../components/pages/GalleryPage.vue";
+import { ref, watch } from 'vue';
+import { useRoute } from 'vue-router';
+import About from '@/components/pages/AboutPage.vue'
+import Contact from '@/components/pages/ContactPage.vue'
 const route = useRoute();
-const pageRoute = route.params.name;
+const pageRoute = ref(route.params.name);
+
+watch(route, (newRoute) => {
+  pageRoute.value = newRoute.params.name;
+});
 </script>

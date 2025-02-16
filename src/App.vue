@@ -1,22 +1,19 @@
-<script setup>
-import TheFooter from './components/layout/TheFooter.vue';
-import TheHeader from './components/layout/TheHeader.vue'
-import TheNav from './components/layout/TheNav.vue'
-import TheSidebar from './components/layout/TheSidebar.vue';
-</script>
-
 <template>
   <main>
-    <TheNav />
-    <div class="wrapper">
-      <TheHeader />
-      <div class="inner-row">
-        <div class="inner-col">
-          <router-view />
-        </div>
-        <TheSidebar />
+    <TheHeader />
+    <div class="inner-row">
+      <div class="inner-col">
+        <router-view />
       </div>
-      <TheFooter />
+      <TheSidebar />
     </div>
+    <TheFooter />
   </main>
 </template>
+
+<script setup>
+import { RouterView } from 'vue-router'
+import TheFooter from './components/layout/TheFooter.vue';
+import TheHeader from './components/layout/TheHeader.vue'
+import TheSidebar from './components/layout/TheSidebar.vue'
+</script>

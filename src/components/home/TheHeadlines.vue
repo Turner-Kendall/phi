@@ -50,8 +50,8 @@
 </template>
 
 <script setup>
-import { articleData } from '../../js/articleData'
-import { headlineData } from '../../js/headlineData'
+import { articleData } from '../../data/articleData'
+import { headlineData } from '../../data/headlineData'
 </script>
 
 <style scoped>

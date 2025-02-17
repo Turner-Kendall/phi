@@ -20,7 +20,7 @@ defineProps({
       description: "",
       category: { name: 'home', link: '/home/index' },
       date: 'January 6th 2025',
-      publisher: { name: 'Weblog.Network', link: '/page/about' },
+      publisher: { name: 'φhi', link: '/page/about' },
       image: { url: '/article-images/default-header.webp' },
     }),
   },

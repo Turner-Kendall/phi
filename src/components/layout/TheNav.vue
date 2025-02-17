@@ -3,24 +3,20 @@
     <Slide>
       <a id="home" href="/"> <span class="bm-link">The Home Page</span> </a>
 
-      <a id="political" href="/pol/list">
-        <span class="bm-link">The Political Category</span>
+      <a id="about" href="/page/about">
+        <span class="bm-link">About φhi</span>
       </a>
 
-      <a id="tech" href="/tech/list">
-        <span class="bm-link">The Tech Category</span>
+      <a id="tech" href="/page/contact">
+        <span class="bm-link">Contact φhi</span>
       </a>
 
-      <a id="home-health" href="/home/list">
-        <span class="bm-link">Home and Health</span>
+      <a id="turbo-sloth" href="/article/turbo-sloth">
+        <span class="bm-link">TurboSloth</span>
       </a>
 
-      <a id="entertainment" href="/ent/list">
-        <span class="bm-link">Entertainment Category</span>
-      </a>
-
-      <a id="law" href="/law/list">
-        <span class="bm-link">The Legal Category</span>
+      <a id="moon-toast" href="/article/moon-toast">
+        <span class="bm-link">Moon Toast</span>
       </a>
 
     </Slide>

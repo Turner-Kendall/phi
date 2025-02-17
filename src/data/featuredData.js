@@ -23,6 +23,4 @@ export const featuredData = [
     shareHashtags: 'tech',
     date: 'January 7th 2025'
   },
-
-
 ];

@@ -11,19 +11,19 @@ export const footerSections = [
   {
     title: "Popular Articles:",
     links: [
-      { title: "Trump / Musk Bromance", link: "https://weblog.network/pol/trump-elon", id: "5" },
-      { title: "Tuning Out Hollywood", link: "https://weblog.network/pol/hollywood-rejected", id: "5" },
-      { title: "2025 Kitchen Trends", link: "https://weblog.network/home/kitchen-tends", id: "7" },
-      { title: "Alcohol Cancer", link: "https://weblog.network/home/alcohol-cancer", id: "8" },
+      { title: "Trump / Musk Bromance", link: "https://phi.skin/pol/trump-elon", id: "5" },
+      { title: "Tuning Out Hollywood", link: "https://phi.skin/pol/hollywood-rejected", id: "6" },
+      { title: "2025 Kitchen Trends", link: "https://phi.skin/home/kitchen-tends", id: "7" },
+      { title: "Alcohol Cancer", link: "https://phi.skin/home/alcohol-cancer", id: "8" },
     ],
   },
   {
     title: "External Articles:",
     links: [
       { title: "Scraping Web Data", link: "https://turnerkendall.com/article/scraping", id: "9" },
-      { title: "A.I. Ethics", link: "/tech/ai-ethics", id: "10" },
+      { title: "A.I. Ethics", link: "https://phi.skin/tech/ai-ethics", id: "10" },
       { title: "Concurrency Comparison", link: "https://turnerkendall.com/article/concurrency", id: "11" },
-      { title: "True Crime Podcasts", link: "https://ent.foundzed.com/docs/true-crime-podcasts", id: "12" },
+      { title: "True Crime Podcasts", link: "https://phi.skin/ent/true-crime", id: "12" },
     ],
   },
   {

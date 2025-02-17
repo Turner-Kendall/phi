@@ -28,7 +28,7 @@
 </template>
 
 <script setup>
-import { footerSections } from '../../js/footerData'
+import { footerSections } from '../../data/footerData'
 import IconUp from '../icons/IconUp.vue';
 </script>
 

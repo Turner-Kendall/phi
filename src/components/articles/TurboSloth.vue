@@ -66,8 +66,8 @@
 
   <h3>The Bottom Line</h3>
   <p>
-    🚀 *Will it ever return?* Or was it simply too advanced for the modern world? Only time—and **deep relaxation**—will
-    tell.
+    🚀 Will it ever return? Or was it simply too advanced for the modern world?
+     Only time — and deep relaxation will tell.
   </p>
 
 
@@ -94,7 +94,7 @@ const preludeInfo = {
   category: cat,
   date: 'February 2nd 2024',
   publisher: {
-    name: 'Weblog.Network',
+    name: 'φhi',
     link: '/page/about',
   },
   image: {
@@ -108,11 +108,11 @@ useHead({
     { name: 'description', content: description },
     { property: 'og:title', content: preludeInfo.title },
     { property: 'og:description', content: description },
-    { property: 'og:image', content: `https://weblog.network${preludeInfo.image.url}` },
+    { property: 'og:image', content: `https://phi.skin${preludeInfo.image.url}` },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: preludeInfo.title },
     { name: 'twitter:description', content: description },
-    { name: 'twitter:image', content: `https://weblog.network${preludeInfo.image.url}` },
+    { name: 'twitter:image', content: `https://phi.skin${preludeInfo.image.url}` },
   ],
 });
 

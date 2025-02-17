@@ -13,7 +13,7 @@
         Read More...
       </button>
     <footer>
-      You can see φhi in action at <a href="https://weblog.network/">The Weblog Network</a>
+      You can see φhi in action at <a href="https://phi.skin/">The Weblog Network</a>
       <br />
       You can grab the latest version here at <a href="https://github.com/Turner-Kendall/phi">Github.</a> 
     </footer>

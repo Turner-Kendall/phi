@@ -19,7 +19,7 @@
 </template>
 
 <script setup>
-import { featuredData } from '../../js/featuredData'
+import { featuredData } from '../../data/featuredData'
 
 </script>
 
